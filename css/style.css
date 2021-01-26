@@ -1,0 +1,99 @@
+body {
+  color: #fff;
+  font-family: Arial;
+  background-image: url(../images/background.jpg);
+  background-size: 100% auto;
+}
+
+table {
+  border-spacing: 0;
+  margin: 0 auto;
+}
+
+.score {
+  margin: 20px 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.cell {
+  border-right: 2px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.cell-hover {
+  background-color: grey;
+  transition: background-color 0.5s linear;
+}
+
+.cell-hover:hover {
+  background-color: #3f51b5;
+}
+
+.border-left {
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.border-top {
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.buttons {
+  text-align: center;
+  display: none;
+}
+
+.result {
+  margin: 20px 0px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cell-victory {
+  background-color: #aff56d;
+  transition: background-color 0.5s linear;
+}
+
+.cell-victory:hover {
+  background-color: #1a214b;
+}
+
+.btn {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: 0.8em 1em calc(0.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64, 199, 129);
+  box-shadow: 0 -3px rgb(53, 167, 110) inset;
+  transition: 0.2s;
+}
+.btn:hover {
+  background: rgb(53, 167, 110);
+}
+.btn:active {
+  background: rgb(33, 147, 90);
+  box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+.X {
+  transition: background-color 0.5s linear;
+}
+
+.X:hover {
+  background-color: #1a214b;
+}
+
+.O {
+  transition: background-color 0.5s linear;
+}
+
+.O:hover {
+  background-color: #1a214b;
+}
